@@ -17,3 +17,13 @@ The script `run_analysis.R`performs the 5 steps described in the course project'
 * A similar approach is taken with activity names through the `activities` variable.
 * `all_data` merges `X_merged`, `Y_merged` and `subject_merged` in a big dataset.
 * Finally, `tidy_average_data` contains the relevant averages which will be later stored in a `.txt` file. 
+
+# Explanation of Files Used
+* activity_labels.txt - Lists each activity with ID.
+* features.txt - List of the 561 features.
+* subject_test.txt - Vector of 2947 integers, showing the volunteer ID related to the observations in X_test.txt.
+* subject_train.txt - Vector of 7352 integers, showing the volunteer ID related to the observations in X_train.txt.
+* X_test.txt - 2947 observations of the 561 features, for 9 of the 30 volunteers.
+* X_train.txt - 7352 observations of the 561 features, for 21 of the 30 volunteers.
+* y_test.txt - A vector of 2947 integers, showing the activity ID related to the observations in X_test.txt.
+* y_train.txt - A vector of 7352 integers, showing the activity ID related to the observations in X_train.txt.

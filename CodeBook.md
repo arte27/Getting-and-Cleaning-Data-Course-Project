@@ -11,9 +11,9 @@ The script `run_analysis.R`performs the 5 steps described in the course project'
 
 # Variables
 
-* `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data from the downloaded files.
-* `x_data`, `y_data` and `subject_data` merge the previous datasets to further analysis.
-* `features` contains the correct names for the `x_data` dataset, which are applied to the column names stored in `mean_and_std_features`, a numeric vector used to extract the desired data.
+* `x_train_file`, `y_train_file`, `x_test_file`, `y_test_file`, `subject_train_file` and `subject_test_file` contain the data from the downloaded files.
+* `X_merged`, `Y_merged` and `subject_merged` merge the previous datasets to further analysis.
+* `features` contains the correct names for the `X_merged` dataset, which are applied to the column names stored in `mean_and_std_features`, a numeric vector used to extract the desired data.
 * A similar approach is taken with activity names through the `activities` variable.
-* `all_data` merges `x_data`, `y_data` and `subject_data` in a big dataset.
+* `all_data` merges `X_merged`, `Y_merged` and `subject_merged` in a big dataset.
 * Finally, `tidy_average_data` contains the relevant averages which will be later stored in a `.txt` file. 
